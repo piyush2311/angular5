@@ -1,0 +1,36 @@
+{
+  "name": "Member",
+  "base": "User",
+  "strict": true,
+  "idInjection": true,
+  "options": {
+    "injectOptionsFromRemoteContext": true,
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "modified": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "realm": false
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [{
+    "principalType": "ROLE",
+    "principalId": "$everyone",
+    "permission": "ALLOW",
+    "property": "find"
+  }],
+  "methods": {}
+}
