@@ -4,7 +4,6 @@
   "strict": true,
   "idInjection": true,
   "options": {
-    "injectOptionsFromRemoteContext": true,
     "validateUpsert": true
   },
   "properties": {
