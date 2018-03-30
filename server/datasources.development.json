@@ -1,9 +1,6 @@
 {
-  "db": {
-    "url": "mongodb://root:root@ds121589.mlab.com:21589/success",
-    "name": "db",
-    "connector": "mongodb",
-    "enableGeoIndexing": true,
-    "allowExtendedOperators": true
+  "db": {"name": "db",
+    "connector": "memory"
+
   }
 }
