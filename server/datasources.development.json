@@ -1,6 +1,13 @@
 {
-  "db": {"name": "db",
-    "connector": "memory"
-
+  "db": {
+    "host": "ds121589.mlab.com",
+    "port": 21589,
+    "url": "",
+    "database": "success",
+    "name": "success",
+    "username": "root",
+    "password": "root",
+    "connector": "mongodb",
+    "allowExtendedOperators": true
   }
 }
