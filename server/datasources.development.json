@@ -1,12 +1,7 @@
 {
   "db": {
-    "host": "127.0.0.1",
-    "port": 27017,
-    "url": "",
-    "database": "success",
-    "password": "",
+    "url": "mongodb://root:root@ds121589.mlab.com:21589/success",
     "name": "db",
-    "user": "",
     "connector": "mongodb",
     "enableGeoIndexing": true,
     "allowExtendedOperators": true
